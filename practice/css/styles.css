@@ -2,8 +2,11 @@ ol {
     color: rgb(255, 128, 0);
 }
 #goals {
-    color:purple
+    color:purple;
+    background-color:yellow;
 }
 #activities{
-    color:red
+    color:red;
+    background-color:black;
+    
 }
