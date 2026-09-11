@@ -1,3 +1,9 @@
-*{
+ol {
     color: rgb(255, 128, 0);
+}
+#goals {
+    color:purple
+}
+#activities{
+    color:red
 }
