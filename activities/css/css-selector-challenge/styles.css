@@ -1,0 +1,36 @@
+.activities {
+    font-weight: bold;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+h2.highlight {
+    background-color:yellow;
+}
+p.card {
+    font-size: 18px;
+}
+.card + p {
+    border: 5px solid orange;
+
+}
+.places.highlight {
+    background-color:aqua;
+}
+h2+p {
+    color:red;
+}
+h2~p {
+    font-style:italic;
+}
+.card>ul {
+    border-color:indigo;
+}
+h2,h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+* {
+    box-sizing: 5px;
+}
