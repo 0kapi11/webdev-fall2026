@@ -1,11 +1,5 @@
-.charoset {
-    background-color:#F3752B;
-    font-family: Verdana, "DejaVu sans", sans-serif;
-}
-h2 {
-    background-color:#508AA8;
-    font-size: 36px;
-}
-h1{
-    font-size: 24px;
+.title {
+    padding:50px;
+    background-color:#BA3F1D;
+    font-family: 'Courier New', Courier, monospace;
 }
