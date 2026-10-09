@@ -1,5 +1,15 @@
 .title {
-    padding:50px;
-    background-color:#BA3F1D;
+    padding:50px;        
+    background-color:#FF570A;                                                                                                                           
     font-family: 'Courier New', Courier, monospace;
+}
+
+.paragraph {
+    padding:30px;
+    background-color:#FF299C;  
+}
+
+.ingredients {
+    padding:30px;
+    background-color: #d0b8e0;
 }
