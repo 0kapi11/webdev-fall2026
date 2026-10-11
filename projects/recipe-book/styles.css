@@ -1,15 +1,29 @@
 .title {
-    padding:50px;        
-    background-color:#FF570A;                                                                                                                           
+    padding:50px;       
+    color:blue; 
+    background-color:#fff70a;
+    font-size:50px;                                                                                                       
     font-family: 'Courier New', Courier, monospace;
+    display:block
 }
 
 .paragraph {
     padding:30px;
+    font-weight: bold;       
     background-color:#FF299C;  
+    border:dotted;
+    width: auto;
+    height: auto;
+    margin: 40px
 }
 
-.ingredients {
-    padding:30px;
-    background-color: #d0b8e0;
+.instructions {
+    padding:10px;
+    color:white;
+    background-color: #3A4454;
+}
+.instruction {
+    padding:10px;
+    color:white;
+    background-color: #B8E0D2;
 }
