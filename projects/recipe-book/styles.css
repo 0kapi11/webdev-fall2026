@@ -28,10 +28,24 @@
     color:white;
 }
 
-#you{
-    padding:400px; /*makes it so there is 50px of space around the element*/
-    color:rgb(255, 55, 0); 
-    font-size:70px;                                         
-    font-family: 'Times New Roman', Times, serif;
+#recipelist{
+    padding:30px;
+    font-weight: bold;       
+    background-color: #FF299C;  
+    border:dotted;
+    width: auto;
+    height: auto;
+    margin: 40px;
+}
+
+#title3{
+    padding:50px; /*makes it so there is 50px of space around the element*/
+    color:whitesmoke; 
+    background-color:blue;
+    color:#fff70a;
+    font-size:50px;  
+    border: dashed;                                 
+    font-family: 'Courier New', Courier, monospace;
     display:block;
 }
+
