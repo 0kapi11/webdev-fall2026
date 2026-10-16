@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.grid-container {
+    display:grid;
+    height:100vh;
+    /*grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);*/
+    gap:10px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr repeat(5, 4fr);
+}
+
+.number{
+    padding:10px;
+    background:rgb(251, 68, 196);
+    font-size:20px;
+}
+
+.day{
+    text-align:center;
+    font-weight:20px;
+    font-size:20px;
+}
