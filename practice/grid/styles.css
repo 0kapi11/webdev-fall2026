@@ -12,9 +12,17 @@ body {
     border: red 3px solid;
     display:grid;
     height:100vh;
+    box-sizing:border-box;
     /*grid-template-columns: 1fr 1fr 1fr;
     grid-template-columns: repeat(3,1fr);*/
-    gap:20px;
-    grid-template-columns: 4fr 4fr;
-    grid-template-rows: 4fr 4fr;
+    gap:5px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:1fr repeat(2,5fr) 1fr;
+}
+/*#unique{
+    grid-column: 2/span 2;
+    grid-row: 2/span 2;
+}*/
+#header{
+    grid-column
 }
