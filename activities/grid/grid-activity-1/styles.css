@@ -55,3 +55,54 @@ html {
     color: white;
     text-align: center;
 }
+
+.header div, .nav div, .sidebar div, .footer div {
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.25);
+  gap:10px;
+  display:grid;
+}
+.sidebar .nav .footer {
+    display:grid;
+    grid-template-columns:1fr;
+
+}
+
+.sidebar{
+    display:grid;
+    grid-template-rows:repeat(5,1fr);
+    gap:15px;
+    text-align:center;
+}
+.footer{
+    grid-column:1/-1;
+}
+*{
+    gap:10px;
+}
+.paragraph{
+    text-align:left
+}
+
+.header {
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items:center;
+}
+.nav{
+    display:grid;
+    grid-template-columns:repeat(4,auto);
+    justify-content: space-around;
+    align-items:center;
+    gap:10px;
+}
+.footer{
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content:space-around;
+    align-items:center;
+    gap:10px;
+}
