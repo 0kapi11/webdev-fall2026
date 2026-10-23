@@ -106,3 +106,7 @@ html {
     align-items:center;
     gap:10px;
 }
+.sidebar div{
+    display:grid;
+    align-items:center;
+}
