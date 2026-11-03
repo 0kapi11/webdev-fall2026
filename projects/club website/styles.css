@@ -12,6 +12,8 @@ html {
     gap:15px;
     grid-template-columns:1fr 3fr;
     grid-template-rows: 1fr 1fr 5fr 1fr;
+    display:grid;
+    grid-template-columns: 1fr 3fr;
 }
 
 .container div {
@@ -43,6 +45,9 @@ html {
 
 .article {
     background-color: #7E1DC3;
+    display:grid;
+    grid-template-rows: 1fr repeat(3, 6fr);
+    grid-template-columns: repeat(5,1fr);
 }
 
 .footer {
@@ -78,6 +83,11 @@ html {
 }
 .footer{
     grid-column:1/-1;
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content:space-around;
+    align-items:center;
+    gap:10px;
 }
 *{
     gap:10px;
@@ -99,14 +109,33 @@ html {
     align-items:center;
     gap:10px;
 }
-.footer{
-    display:grid;
-    grid-template-columns: repeat(3, auto);
-    justify-content:space-around;
-    align-items:center;
-    gap:10px;
-}
 .sidebar div{
     display:grid;
     align-items:center;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  display:grid;
+  border:2px dotted black;
+}
+
+/* Add some padding inside the card container */
+
+.text{
+    font-size:18px;
+    display:grid;
+}
+#article-header{
+    grid-row:1;
+    grid-column:1/6;
+}
+.about {
+    background-color: #393f4d;
+}
+
+.about p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
 }
