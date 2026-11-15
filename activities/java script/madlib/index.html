@@ -3,21 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madlib</title>
-    <script src="script.js"></script>
+    <title>my madlib</title>
 </head>
 <body>
-    <h1>Oliver's Madlib</h1>
-
-    <label for="nameInput1">Enter a name: </label>
-    <input id="nameInput1" type="text" />
-    <label for="verbInput1">Enter a verb: </label>
-    <input id="verbInput1" type="text" />
-    <button onclick="create()">Create Madlib!</button>
-
-    <p id="madlib"></p>
-
-
-
+    
+    <button type="button" onclick="story()">
+        Generate story
+    </button>
+    <p id="storyOutput"></p>
+    <script src="script.js"></script>
 </body>
 </html>
