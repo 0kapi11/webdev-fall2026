@@ -12,7 +12,7 @@ mode.addEventListener("click", ()=> {
         document.body.style.backgroundColor = "white"
         heading.textContent = "Light Mode";
         heading.style.color="black"
-        document.title="Lignt Mode"
+        document.title="Light Mode"
         mode.textContent= "☀️";
     }
 })
