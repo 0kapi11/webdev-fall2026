@@ -9,14 +9,24 @@
 
 
     // STEP 5: if holiday mode was on, turn it off
-let holidayMode="off"
+let holidayMode="off";
 
 function HanukkahMenu(){
     if(holidayMode=="off"){
-        holidayMode="on"
-        document.getElementById("site-header").style.backgroundColor="darkblue";
+        holidayMode="on";
 
+        document.getElementById("site-header").style.backgroundColor="darkblue";
+        document.getElementById("header-text").textContent="Happy Hanukkah!";
+        document.getElementById("welcome-heading").textContent="Chag Oreem Samayach!";
+        document.getElementById("button").textContent="menu";
+        document.getElementById("site-footer").style.backgroundColor="lightblue";
     } else{
-        holidayMode="off"
+        holidayMode="off";
+
+        document.getElementById("site-header").style.backgroundColor="";
+        document.getElementById("header-text").textContent="Welcome";
+        document.getElementById("welcome-heading").textContent="Welcome to Sunny Side Bakery!";
+        document.getElementById("button").textContent="Hannukkah menu";
+        document.getElementById("site-footer").style.backgroundColor="lightgrey";
     }
 }
