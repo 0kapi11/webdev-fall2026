@@ -10,7 +10,8 @@
 
     // STEP 5: if holiday mode was on, turn it off
 let holidayMode="off";
-
+const hanukkahMusic= new Audio("hanukkah.mp3");
+const lofiMusic= new Audio("lofi.mp3");
 function HanukkahMenu(){
     if(holidayMode=="off"){
         holidayMode="on";
@@ -20,9 +21,14 @@ function HanukkahMenu(){
         document.getElementById("welcome-heading").textContent="Chag Oreem Samayach!";
         document.getElementById("button").textContent="menu";
         document.getElementById("site-footer").style.backgroundColor="lightblue";
+        document.body.style.backgroundImage="linear-gradient(blue,white,blue)";
+        lofiMusic.pause();
+        hanukkahMusic.play();
+        
     } else{
         holidayMode="off";
-
+        hanukkahMusic.pause();
+        lofiMusic.play();
         document.getElementById("site-header").style.backgroundColor="";
         document.getElementById("header-text").textContent="Welcome";
         document.getElementById("welcome-heading").textContent="Welcome to Sunny Side Bakery!";
